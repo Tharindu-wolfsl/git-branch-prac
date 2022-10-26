@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --ibm:'IBM Plex Sans', sans-serif;
+    --blue:#2767F4;
+    --white:#ffffff;
+}
+.mobile{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ibm);
+    background-color: #FAFAFA;
+
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.section{
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.section1{
+
+    width: 100%;
+margin: 0 auto;
+
+margin-bottom: 64px;
+background-color: white;
+height: 246px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.section1 .title span{
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+color: #231F20;
+
+}
+.section1 .title p{
+    max-width: 460px;
+    margin: 24px auto;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+text-align: center;
+
+/* Everyday Black */
+    }
+    .card-set{
+        margin-bottom: 153px;
+    }
+
+.card-set .card {
+    margin: 0 auto;
+    display: flex;
+    max-width:800px;
+    height: 264px;
+    justify-content: space-between;
+    margin-bottom:32px;
+    background: #FFFFFF;
+border: 1px solid #F8F8F8;
+box-shadow: 0px 4px 12px #F0F0F0;
+border-radius: 6px;
+
+
+    
+    
+}
+
+.card .content{
+    position: relative;
+    padding:40px 46px;
+    text-align: left;
+}
+
+.card .content span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    /* identical to box height, or 31px */
+    
+    
+    /* Everyday Black */
+    
+    color: #231F20;
+}
+.card .content p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+/* Everyday Black */
+
+color: #231F20;
+}
+.card .link{
+    position: absolute;
+   bottom: 40px;
+}
+.card .link a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    color: #0F0B2F;
+}
+
+.desktop{
+    width: 360px;
+    height: 264px;
+    
+}
+.card:first-child .desktop{
+
+    background-color: #F0F4FF;
+}
+.card:nth-child(2) .desktop{
+
+    background-color: #EEFDFF;
+}
+.card:nth-child(3) .desktop{
+   
+    background-color: #FFEFEE;
+}
+.card:nth-child(4) .desktop{
+
+    background-color:#F3EAFF;
+}
+.card:nth-child(5) .desktop{
+
+    background-color: #EEFDFF;
+}
+.card:nth-child(6) .desktop{
+
+    background-color: #FFEFEE;
+}
+@media only screen and (max-width: 768px){
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+.section1{
+margin: 0 auto;
+margin-bottom: 24px;
+height: 164px;
+}
+
+.section1 .title span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    
+    /* Everyday Black */
+    
+    color: #231F20;
+
+}
+.section1 .title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 348px;
+    /* or 24px */
+    
+    text-align: center;
+    
+    /* Everyday Black */
+    
+    color: #231F20;
+    }
+   
+     .card-set .card {
+        max-width: 351px;
+        height: 294px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-bottom: 12px;
+
+        
+    }
+    .card .content{
+        position: relative;
+        padding:0;
+        text-align: left;
+        height: 165px;
+        margin-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .card .content span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+        
+        
+        /* Everyday Black */
+        
+        color: #231F20;
+    }
+    .card .content p{
+       
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        /* or 21px */
+        
+        
+        /* Everyday Black */
+        
+        color: #231F20;
+    }
+    .card .link{
+        position: absolute;
+       bottom: 11px;
+    }
+    .card .link a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 21px */
+        
+        
+        color: #0F0B2F;
+    }
+}
